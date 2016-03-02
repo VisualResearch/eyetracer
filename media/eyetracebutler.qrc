@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/EyetraceButler">
+    <file alias="splash">EyeTraceSplash2.png</file>
+    <file>EyetraceButler.ico</file>
+  </qresource>
+  <qresource prefix="/Icons/Resources">
+    <file>button_blue_close.png</file>
+    <file alias="Splash">EyetraceButlerSplash.jpg</file>
+    <file>button_blue_fastforward.png</file>
+    <file>folder_blue_stuffed.png</file>
+    <file>button_blue_add.png</file>
+    <file>button_blue_delete.png</file>
+    <file>folder_blue.png</file>
+    <file>button_blue_play.png</file>
+  </qresource>
+</RCC>

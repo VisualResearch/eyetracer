@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "common", "common\common.vcxproj", "{C96950D0-5E02-3865-8BDF-C4A0FB026C6B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "eyetracebutler_d", "eyetracebutler\eyetracebutler_d.vcxproj", "{F05E55FC-4B29-37B2-B0D2-F44CAFCD4A22}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B} = {C96950D0-5E02-3865-8BDF-C4A0FB026C6B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plug_SMIRED5_d", "plugin_smired5\plug_SMIRED5_d.vcxproj", "{4B243E59-7FC2-3813-9886-6AAC760A41FB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B} = {C96950D0-5E02-3865-8BDF-C4A0FB026C6B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plug_SMIHED_d", "plugin_smihed\plug_SMIHED_d.vcxproj", "{5799AB5C-FB1E-3FFB-BF8B-AE3B8E7CBE39}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B} = {C96950D0-5E02-3865-8BDF-C4A0FB026C6B}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "plug_IDMT_d", "plugin_idmt\plug_IDMT_d.vcxproj", "{05B17E97-A6ED-3E95-BC01-AC65A0EA6E7C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B} = {C96950D0-5E02-3865-8BDF-C4A0FB026C6B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B}.Debug|Win32.Build.0 = Debug|Win32
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B}.Release|Win32.ActiveCfg = Release|Win32
+		{C96950D0-5E02-3865-8BDF-C4A0FB026C6B}.Release|Win32.Build.0 = Release|Win32
+		{F05E55FC-4B29-37B2-B0D2-F44CAFCD4A22}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F05E55FC-4B29-37B2-B0D2-F44CAFCD4A22}.Debug|Win32.Build.0 = Debug|Win32
+		{F05E55FC-4B29-37B2-B0D2-F44CAFCD4A22}.Release|Win32.ActiveCfg = Release|Win32
+		{F05E55FC-4B29-37B2-B0D2-F44CAFCD4A22}.Release|Win32.Build.0 = Release|Win32
+		{4B243E59-7FC2-3813-9886-6AAC760A41FB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4B243E59-7FC2-3813-9886-6AAC760A41FB}.Debug|Win32.Build.0 = Debug|Win32
+		{4B243E59-7FC2-3813-9886-6AAC760A41FB}.Release|Win32.ActiveCfg = Release|Win32
+		{4B243E59-7FC2-3813-9886-6AAC760A41FB}.Release|Win32.Build.0 = Release|Win32
+		{5799AB5C-FB1E-3FFB-BF8B-AE3B8E7CBE39}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5799AB5C-FB1E-3FFB-BF8B-AE3B8E7CBE39}.Debug|Win32.Build.0 = Debug|Win32
+		{5799AB5C-FB1E-3FFB-BF8B-AE3B8E7CBE39}.Release|Win32.ActiveCfg = Release|Win32
+		{5799AB5C-FB1E-3FFB-BF8B-AE3B8E7CBE39}.Release|Win32.Build.0 = Release|Win32
+		{05B17E97-A6ED-3E95-BC01-AC65A0EA6E7C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{05B17E97-A6ED-3E95-BC01-AC65A0EA6E7C}.Debug|Win32.Build.0 = Debug|Win32
+		{05B17E97-A6ED-3E95-BC01-AC65A0EA6E7C}.Release|Win32.ActiveCfg = Release|Win32
+		{05B17E97-A6ED-3E95-BC01-AC65A0EA6E7C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = 4.8.5
+	EndGlobalSection
+EndGlobal

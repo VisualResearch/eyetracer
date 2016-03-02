@@ -1,0 +1,33 @@
+﻿Build started 2015/11/9 20:44:04.
+     1>Project "D:\EyetrackingData\eyetracebutler.git\build\common\common.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\common.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Rcc'ing ..\..\media\eyetracebutler.qrc...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\4.8.5\include\QtCore /ID:\Qt\4.8.5\include\QtGui /ID:\Qt\4.8.5\include /I..\..\inc /ID:\Qt\4.8.5\include\ActiveQt /Imoc /I"..\..\..\..\Qt\4.8.5\mkspecs\win32-msvc2010" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D DEBUG_MODE /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Data.cpp ..\..\src\Plugin.cpp ..\..\src\Quality.cpp ..\..\src\Subject.cpp ..\..\src\common.cpp -Zm200 -w34100 -w34189 
+         Data.cpp
+         Plugin.cpp
+         Quality.cpp
+         Subject.cpp
+         common.cpp
+         Generating Code...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\4.8.5\include\QtCore /ID:\Qt\4.8.5\include\QtGui /ID:\Qt\4.8.5\include /I..\..\inc /ID:\Qt\4.8.5\include\ActiveQt /Imoc /I"..\..\..\..\Qt\4.8.5\mkspecs\win32-msvc2010" /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D DEBUG_MODE /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_eyetracebutler.cpp -Zm200 -w34100 -w34189 
+         qrc_eyetracebutler.cpp
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\common.lib" /NOLOGO Win32\Debug\Data.obj
+         Win32\Debug\Plugin.obj
+         Win32\Debug\Quality.obj
+         Win32\Debug\Subject.obj
+         Win32\Debug\common.obj
+         Win32\Debug\qrc_eyetracebutler.obj
+         common.vcxproj -> D:\EyetrackingData\eyetracebutler.git\build\common\.\common.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\common.unsuccessfulbuild".
+         Touching "Win32\Debug\common.lastbuildstate".
+     1>Done Building Project "D:\EyetrackingData\eyetracebutler.git\build\common\common.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.87

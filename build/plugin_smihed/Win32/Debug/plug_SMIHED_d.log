@@ -1,0 +1,42 @@
+﻿Build started 2015/11/9 20:44:27.
+     1>Project "D:\EyetrackingData\eyetracebutler.git\build\plugin_smihed\plug_SMIHED_d.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\plug_SMIHED_d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing SMIHED_widget.hpp...
+         Moc'ing Timelinemarker.hpp...
+         Uic'ing ..\..\frm\smihed.ui...
+         Rcc'ing ..\..\media\eyetracebutler.qrc...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\4.8.5\include\QtCore /ID:\Qt\4.8.5\include\QtGui /ID:\Qt\4.8.5\include /I..\..\inc /I..\common /ID:\Qt\4.8.5\include\ActiveQt /Imoc /Iui /I"..\..\..\..\Qt\4.8.5\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D DEBUG_MODE /D QT_DLL /D QT_PLUGIN /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Plugin_widget.cpp ..\..\src\SMIHED.cpp ..\..\src\SMIHED_widget.cpp ..\..\src\Timelinemarker.cpp GeneratedFiles\qrc_eyetracebutler.cpp moc\moc_SMIHED_widget.cpp moc\moc_Timelinemarker.cpp -Zm200 -w34100 -w34189 
+         Plugin_widget.cpp
+         SMIHED.cpp
+     1>..\..\src\SMIHED.cpp(35): warning C4100: 'line_num_stop' : unreferenced formal parameter
+         SMIHED_widget.cpp
+         Timelinemarker.cpp
+     1>..\..\src\Timelinemarker.cpp(26): warning C4100: 'e' : unreferenced formal parameter
+         qrc_eyetracebutler.cpp
+         moc_SMIHED_widget.cpp
+         moc_Timelinemarker.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\\plug_SMIHED_d.dll" /NOLOGO /LIBPATH:D:\Qt\4.8.5\lib /LIBPATH:D:\Qt\4.8.5\lib /LIBPATH:../common ../common\common.lib D:\Qt\4.8.5\lib\QtGuid4.lib D:\Qt\4.8.5\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\plug_SMIHED_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\EyetrackingData\eyetracebutler.git\bin\plug_SMIHED_d.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 /DLL Win32\Debug\Plugin_widget.obj
+         Win32\Debug\SMIHED.obj
+         Win32\Debug\SMIHED_widget.obj
+         Win32\Debug\Timelinemarker.obj
+         Win32\Debug\qrc_eyetracebutler.obj
+         Win32\Debug\moc_SMIHED_widget.obj
+         Win32\Debug\moc_Timelinemarker.obj
+            Creating library ..\..\bin\\plug_SMIHED_d.lib and object ..\..\bin\\plug_SMIHED_d.exp
+         plug_SMIHED_d.vcxproj -> D:\EyetrackingData\eyetracebutler.git\build\plugin_smihed\..\..\bin\plug_SMIHED_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\\plug_SMIHED_d.dll;#2" /manifest Win32\Debug\plug_SMIHED_d.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\plug_SMIHED_d.unsuccessfulbuild".
+         Touching "Win32\Debug\plug_SMIHED_d.lastbuildstate".
+     1>Done Building Project "D:\EyetrackingData\eyetracebutler.git\build\plugin_smihed\plug_SMIHED_d.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.93

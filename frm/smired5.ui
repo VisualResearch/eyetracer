@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SMIRED5_widget</class>
+ <widget class="QWidget" name="SMIRED5_widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>597</width>
+    <height>592</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SMIRED5_widget</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>File fragmentation</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QGroupBox" name="inputs_groupBox">
+           <property name="title">
+            <string>Load files</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_3">
+            <item>
+             <widget class="QListView" name="listView"/>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="L2b">
+              <property name="spacing">
+               <number>8</number>
+              </property>
+              <property name="sizeConstraint">
+               <enum>QLayout::SetDefaultConstraint</enum>
+              </property>
+              <item>
+               <widget class="QToolButton" name="addButton">
+                <property name="enabled">
+                 <bool>true</bool>
+                </property>
+                <property name="text">
+                 <string>Add</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/button_blue_add.png</normaloff>:/Icons/Resources/button_blue_add.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="removeButton">
+                <property name="text">
+                 <string>Remove</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/button_blue_delete.png</normaloff>:/Icons/Resources/button_blue_delete.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="toolButton">
+                <property name="text">
+                 <string>Remove all</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/button_blue_close.png</normaloff>:/Icons/Resources/button_blue_close.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="groupBox">
+           <property name="title">
+            <string>Set path to subject.csv</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout">
+              <item>
+               <widget class="QLineEdit" name="subjectCsv_pathEdit"/>
+              </item>
+              <item>
+               <widget class="QToolButton" name="browseSubjectButton">
+                <property name="text">
+                 <string>Browse</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/folder_blue_stuffed.png</normaloff>:/Icons/Resources/folder_blue_stuffed.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="image_groupBox">
+           <property name="title">
+            <string>Set image folder</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
+            <item>
+             <layout class="QHBoxLayout" name="L3a">
+              <item>
+               <widget class="QLineEdit" name="imageFolder_pathEdit"/>
+              </item>
+              <item>
+               <widget class="QToolButton" name="browseImageFolderButton">
+                <property name="text">
+                 <string>Browse</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/folder_blue.png</normaloff>:/Icons/Resources/folder_blue.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="convertOnlyAvaliablePictures_checkBox">
+              <property name="text">
+               <string>convert only files for available pictures</string>
+              </property>
+              <property name="checked">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="output_groupBox">
+           <property name="title">
+            <string>Select output folder</string>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_9">
+            <item>
+             <layout class="QHBoxLayout" name="L4a">
+              <item>
+               <widget class="QLineEdit" name="outputFolder_pathEdit"/>
+              </item>
+              <item>
+               <widget class="QToolButton" name="browseOutputFolderButton">
+                <property name="text">
+                 <string>Browse</string>
+                </property>
+                <property name="icon">
+                 <iconset resource="../media/eyetracebutler.qrc">
+                  <normaloff>:/Icons/Resources/folder_blue.png</normaloff>:/Icons/Resources/folder_blue.png</iconset>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonTextBesideIcon</enum>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <widget class="QGroupBox" name="options_groupBox">
+           <property name="title">
+            <string>Options</string>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="0" column="0">
+             <layout class="QGridLayout" name="gridLayout_2">
+              <item row="0" column="1">
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QLabel" name="quality_label1">
+                  <property name="text">
+                   <string>prefix for quality/histogram files:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="quality_lineEdit"/>
+                </item>
+               </layout>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLabel" name="quality_label">
+                <property name="text">
+                 <string>(file is saved as &lt;prefix&gt;_filename_[quality.csv|histogram.jpg])</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QCheckBox" name="checkQuality_checkBox">
+                <property name="text">
+                 <string>check quality</string>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="showhistogram_checkBox">
+                <property name="text">
+                 <string>show histogram</string>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="savehistogram_checkBox">
+                <property name="text">
+                 <string>save histogram</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </item>
+           </layout>
+          </widget>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="L5">
+           <property name="sizeConstraint">
+            <enum>QLayout::SetDefaultConstraint</enum>
+           </property>
+           <item>
+            <spacer name="horizontalSpacer">
+             <property name="orientation">
+              <enum>Qt::Horizontal</enum>
+             </property>
+             <property name="sizeHint" stdset="0">
+              <size>
+               <width>40</width>
+               <height>20</height>
+              </size>
+             </property>
+            </spacer>
+           </item>
+           <item>
+            <widget class="QToolButton" name="startButton">
+             <property name="text">
+              <string>Start conversion</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../media/eyetracebutler.qrc">
+               <normaloff>:/Icons/Resources/button_blue_play.png</normaloff>:/Icons/Resources/button_blue_play.png</iconset>
+             </property>
+             <property name="popupMode">
+              <enum>QToolButton::DelayedPopup</enum>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextBesideIcon</enum>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QToolButton" name="RemoveBlink">
+             <property name="text">
+              <string>start blink remove</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../media/eyetracebutler.qrc">
+               <normaloff>:/Icons/Resources/button_blue_play.png</normaloff>:/Icons/Resources/button_blue_play.png</iconset>
+             </property>
+             <property name="toolButtonStyle">
+              <enum>Qt::ToolButtonTextBesideIcon</enum>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../media/eyetracebutler.qrc"/>
+  <include location="../media/eyetracebutler.qrc"/>
+  <include location="../media/eyetracebutler.qrc"/>
+  <include location="../media/eyetracebutler.qrc"/>
+  <include location="../media/eyetracebutler.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>addButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltAddFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>147</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>541</x>
+     <y>83</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>removeButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltRemoveFile()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>291</x>
+     <y>209</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>120</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>browseSubjectButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltSetSubjectPath()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>513</x>
+     <y>272</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>browseImageFolderButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltSetImageFolder()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>513</x>
+     <y>335</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>543</x>
+     <y>230</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>browseOutputFolderButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltSelectOutputFolder()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>513</x>
+     <y>421</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>startButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltStartFragmentation()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>567</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>542</x>
+     <y>425</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkQuality_checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltAbleSelection(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>99</x>
+     <y>479</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>540</x>
+     <y>407</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>toolButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltRemoveAll()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>440</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>RemoveBlink</sender>
+   <signal>clicked()</signal>
+   <receiver>SMIRED5_widget</receiver>
+   <slot>sltRemoveBlink()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>460</x>
+     <y>555</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>481</x>
+     <y>588</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>sltAddFile()</slot>
+  <slot>sltRemoveFile()</slot>
+  <slot>sltSetSubjectPath()</slot>
+  <slot>sltSetImageFolder()</slot>
+  <slot>sltSelectOutputFolder()</slot>
+  <slot>sltStartFragmentation()</slot>
+  <slot>sltAbleSelection(bool)</slot>
+  <slot>sltRemoveAll()</slot>
+  <slot>slot1()</slot>
+  <slot>sltRemoveBlink()</slot>
+ </slots>
+</ui>

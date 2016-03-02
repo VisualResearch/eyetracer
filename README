@@ -1,0 +1,42 @@
+Requeriments:
+- MacOSx and Linux:
+	- Boost library 1.5.7 : http://www.boost.org/ (libboost-regex1.55-dev)
+	- Qt 4: https://www.qt.io/download-open-source/
+	- gnu g++ compiler
+- Windows:
+	- Qt 4: https://www.qt.io/download-open-source/
+	- MVC++ 2010
+
+
+Compilation:
+- go to "build" folder
+- execute: qmake eyetracebuildersuite.pro
+  (for commandline version execute instead: qmake eyetracebuildersuite_cmd.pro)
+- execute: make
+
+Execution:
+All the executables are generated in "bin" folder.
+
+
+Folder Structure:
+.
+├── bin: executable files
+├── build: compilation files
+├── doc: documentation
+├── Eyetrace Butler: old source code for check old version (at some point will disapear)
+├── Plugins: old source code for check old version (at some point will disapear)
+├── frm: Qt4 formulars
+├── inc: include files
+├── media: media files (icons, images...)
+└── src: source files
+
+
+DEBUG or RELEASE mode:
+by default DEBUG mode is activated, to deactivate change: 
+    CONFIG += debug
+to
+    CONFIG += release
+in the files:
+   - build/eyetracebutler/eyetracebutler.pro
+   - build/plugin_smired5/plugin_smired5.pro
+   - build/common/common.pro

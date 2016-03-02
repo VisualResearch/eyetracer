@@ -1,0 +1,30 @@
+﻿Build started 2015/11/9 20:44:27.
+     1>Project "D:\EyetrackingData\eyetracebutler.git\build\eyetracebutler\eyetracebutler_d.vcxproj" on node 4 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\eyetracebutler_d.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing Eyetracebutler_widget.hpp...
+         Uic'ing ..\..\frm\eyetracebutler.ui...
+         Rcc'ing ..\..\media\eyetracebutler.qrc...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\Qt\4.8.5\include\QtCore /ID:\Qt\4.8.5\include\QtGui /ID:\Qt\4.8.5\include /I..\..\inc /I..\common /ID:\Qt\4.8.5\include\ActiveQt /Imoc /Iui /I"..\..\..\..\Qt\4.8.5\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D DEBUG_MODE /D QT_DLL /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\src\Eyetracebutler_widget.cpp GeneratedFiles\Debug\moc_Eyetracebutler_widget.cpp GeneratedFiles\qrc_eyetracebutler.cpp -Zm200 -w34100 -w34189 
+         Eyetracebutler_widget.cpp
+         moc_Eyetracebutler_widget.cpp
+         qrc_eyetracebutler.cpp
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\bin\\eyetracebutler_d.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.5\lib /LIBPATH:D:\Qt\4.8.5\lib /LIBPATH:../common D:\Qt\4.8.5\lib\qtmaind.lib ../common\common.lib D:\Qt\4.8.5\lib\QtGuid4.lib D:\Qt\4.8.5\lib\QtCored4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\eyetracebutler_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\EyetrackingData\eyetracebutler.git\bin\eyetracebutler_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\Eyetracebutler_widget.obj
+         Win32\Debug\moc_Eyetracebutler_widget.obj
+         Win32\Debug\qrc_eyetracebutler.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         eyetracebutler_d.vcxproj -> D:\EyetrackingData\eyetracebutler.git\build\eyetracebutler\..\..\bin\eyetracebutler_d.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\bin\\eyetracebutler_d.exe;#1" /manifest Win32\Debug\eyetracebutler_d.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\eyetracebutler_d.unsuccessfulbuild".
+         Touching "Win32\Debug\eyetracebutler_d.lastbuildstate".
+     1>Done Building Project "D:\EyetrackingData\eyetracebutler.git\build\eyetracebutler\eyetracebutler_d.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.36

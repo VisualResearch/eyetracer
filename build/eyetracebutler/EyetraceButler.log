@@ -1,0 +1,143 @@
+CompanyName: University of Tuebingen 
+FileDescription: Eyetrace Butler: Prepares SMI data for processing in Eyetrace
+FileVersion: 2.04
+InternalName: Eyetrace Butler widget
+LegalCopyright: Copyright (C) 2015
+OriginalFilename: Eyetrace Butler widget
+ProductName: Eyetrace Butler
+ProductVersion: 2.04
+Image Supported formats: 
+- ,bmp,gif,ico,jpeg,jpg,mng,pbm,pgm,png,ppm,svg,svgz,tga,tif,tiff,xbm,xpm
+Starting application...
+DEBUG: Pluging dir: D:/EyetrackingData/eyetracebutler.git/bin
+DEBUG: Plugin files: plug_IDMT_d.dll
+plug_SMIHED_d.dll
+plug_SMIRED5_d.dll
+DEBUG: Pluging dir: D:/EyetrackingData/eyetracebutler.git/bin
+DEBUG: Plugin files: plug_IDMT_d.dll
+plug_SMIHED_d.dll
+plug_SMIRED5_d.dll
+DEBUG: Comboname:SMIRED5_d
+DEBUG: PluginName:IDMT_d
+DEBUG: Comboname:SMIRED5_d
+DEBUG: PluginName:SMIHED_d
+DEBUG: Comboname:SMIRED5_d
+DEBUG: PluginName:SMIRED5_d
+DEBUG: function: void SMIRED5_widget::sltAddFile()
+DEBUG: function: QStringList SMIRED5_widget::openFile(QString filter)
+DEBUG: function: void SMIRED5_widget::sltSetImageFolder()
+DEBUG: function: QString SMIRED5_widget::openFolder()
+DEBUG: D:\EyetrackingData\Samples_Konk\KONK_weiss as image folder selected.
+DEBUG: function: void SMIRED5_widget::sltSelectOutputFolder()
+DEBUG: function: QString SMIRED5_widget::openFolder()
+DEBUG: C:\Users\Weixi\Desktop\xxx\blink as output folder selected.
+DEBUG: function: void SMIRED5_widget::sltRemoveAll()
+DEBUG: All files removed
+DEBUG: function: void SMIRED5_widget::sltAddFile()
+DEBUG: function: QStringList SMIRED5_widget::openFile(QString filter)
+DEBUG: function: void SMIRED5_widget::sltSelectOutputFolder()
+DEBUG: function: QString SMIRED5_widget::openFolder()
+DEBUG: C:\Users\Weixi\Desktop\xxx\debug as output folder selected.
+DEBUG: function: void SMIRED5_widget::sltAbleSelection(bool select)
+DEBUG: Quality check disabled.
+DEBUG: function: void SMIRED5_widget::sltRemoveBlink()
+DEBUG: function: void Subject::clear ()
+DEBUG: Processing file: D:/EyetrackingData/Samples_Konk/BED+/txt/101AG_konk Samples.txt
+DEBUG: function: bool SMIRED5::parseDataFile (string file_path, list<Data*> &list_data)
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1022
+DEBUG: Processing Image Data:  paar03
+DEBUG: Size: 1501
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1017
+DEBUG: Processing Image Data:  paar10
+DEBUG: Size: 1505
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1005
+DEBUG: Processing Image Data:  paar19
+DEBUG: Size: 1494
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1010
+DEBUG: Processing Image Data:  paar11
+DEBUG: Size: 1505
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1012
+DEBUG: Processing Image Data:  paar17
+DEBUG: Size: 1495
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1022
+DEBUG: Processing Image Data:  paar24
+DEBUG: Size: 1492
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1005
+DEBUG: Processing Image Data:  paar14
+DEBUG: Size: 1494
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1011
+DEBUG: Processing Image Data:  paar08
+DEBUG: Size: 1504
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1013
+DEBUG: Processing Image Data:  paar01
+DEBUG: Size: 1493
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1024
+DEBUG: Processing Image Data:  paar15
+DEBUG: Size: 1507
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1018
+DEBUG: Processing Image Data:  paar23
+DEBUG: Size: 1504
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1014
+DEBUG: Processing Image Data:  paar09
+DEBUG: Size: 1501
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1028
+DEBUG: Processing Image Data:  paar22
+DEBUG: Size: 1502
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1008
+DEBUG: Processing Image Data:  paar04
+DEBUG: Size: 1506
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1027
+DEBUG: Processing Image Data:  paar13
+DEBUG: Size: 1496
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1009
+DEBUG: Processing Image Data:  paar05
+DEBUG: Size: 1506
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1017
+DEBUG: Processing Image Data:  paar20
+DEBUG: Size: 1497
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1012
+DEBUG: Processing Image Data:  paar16
+DEBUG: Size: 1495
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1017
+DEBUG: Processing Image Data:  paar06
+DEBUG: Size: 1505
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1008
+DEBUG: Processing Image Data:  paar18
+DEBUG: Size: 1507
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1017
+DEBUG: Processing Image Data:  paar07
+DEBUG: Size: 1497
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1009
+DEBUG: Processing Image Data:  paar12
+DEBUG: Size: 1506
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1017
+DEBUG: Processing Image Data:  paar02
+DEBUG: Size: 1498
+DEBUG: Processing Image Data:  maske
+DEBUG: Size: 1009
+DEBUG: Processing Image Data:  paar21
+DEBUG: Size: 1505
+DEBUG: Processing Image Data:  maske
