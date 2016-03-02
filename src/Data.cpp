@@ -39,13 +39,11 @@ void Data::replace_blink(){
                 ++it3;
                 ++it2;
             }
-
         }
         ++it1;
         ++it1Next;
         ++it4;
     }
-	
 }
 
 //   //initalize
