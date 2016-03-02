@@ -9,7 +9,7 @@ Data::  Data (const string &file_path, const string &fileID, const string &subje
   : _file_path(file_path), _fileID(fileID), _subjectID(subjectID), _bilder_name(bilder_name), _bilder_ext(bilder_ext) {
   _list_data.clear();
 }
-
+//hh
 void Data::replace_blink(){
 	vector<double> open_time;
     list<Data_element>::iterator it1,/* it1Next,*/ it2 ,it3 /*,it4*/;
